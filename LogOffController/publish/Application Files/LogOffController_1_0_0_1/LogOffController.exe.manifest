@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LogOffController.exe" version="1.0.0.1" publicKeyToken="5dab2d2f60be1590" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LogOffController" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LogOffController.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opzioni manifesto Controllo dell'account utente
+          Se si vuole modificare il livello di Controllo dell'account utente di Windows, sostituire il
+          nodo requestedExecutionLevel con uno dei seguenti.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se si vuole usare Virtualizzazione file system e registro di sistema per la 
+         compatibilità con le versioni precedenti, eliminare il nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LogOffController.exe" size="149992">
+      <assemblyIdentity name="LogOffController" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hhtKgBxet/oHrjY3uZWuHcz/qSe9QjoavEov47vnlIM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LogOffController.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BARBA-DESKTOP\Federico" issuerKeyHash="77b2af1b22b92e90bdf9ba824e4059544716b233" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>C9fyGVJzZo/kCSLMdMJck3LlR+65iaOS2Wr1tfcTfA8=</DigestValue></Reference></SignedInfo><SignatureValue>J67WGtsrNldzVWZe0z6KpddOiJoSxmKgCxaePrXY7bOMC/kkDcSbfojns+QprMWfenBUzDOlEn6H+HGe/4nImc4tt7l2KEiggJuRvcN29Q4nnaStrrF65PEmRB5BqVDtyWMjs/fQFRS9Y5oKu4/8DnlnZ8zaWWgbqS9O1YbMPhU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>7iimIUUlKTaXqra11uW7c/Rocj3K1jLwGhk5veOBw2h3UemTLW2b+olmsphjX3O5YaVxaiwlqExwogGZq0vnfkuzGEfmKJYTI4715HAhFApHbAL/7IUAumgCDcxmMWybHMJF6gqT7vi+UrGwJcJ/qDXcC2bC4NKCtImNKzwwt6E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0f7c13f7b5f56ad992a389b9ee47e572935cc274cc2209e48f66735219f2d70b" Description="" Url=""><as:assemblyIdentity name="LogOffController.exe" version="1.0.0.1" publicKeyToken="5dab2d2f60be1590" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BARBA-DESKTOP\Federico</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>QsMWe1CLA5br+13tZywqXvjBhOpDATSOt8ZNk+87aGo=</DigestValue></Reference></SignedInfo><SignatureValue>mkfbW/LWwu6EghjD7KA7e0XhyTImZ93AxGdD7xUaePKfvCIc4NXJpsk2ifDX3xUcYuoKOvgXjzs8gW3FmhYpx6KIUHxUj2BmkYHTyW5UEHNVZIvRYB8L7qv6vy0wXHNtcR2/etk3f1MJrJz4kYxbRXHrdITeS82og9pm9YVT7sY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>7iimIUUlKTaXqra11uW7c/Rocj3K1jLwGhk5veOBw2h3UemTLW2b+olmsphjX3O5YaVxaiwlqExwogGZq0vnfkuzGEfmKJYTI4715HAhFApHbAL/7IUAumgCDcxmMWybHMJF6gqT7vi+UrGwJcJ/qDXcC2bC4NKCtImNKzwwt6E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQFmxupzXXKIVFMt/zDk5utzANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwAQgBBAFIAQgBBAC0ARABFAFMASwBUAE8AUABcAEYAZQBkAGUAcgBpAGMAbzAeFw0yMDA3MDgyMjQxMDVaFw0yMTA3MDkwNDQxMDVaMDcxNTAzBgNVBAMeLABCAEEAUgBCAEEALQBEAEUAUwBLAFQATwBQAFwARgBlAGQAZQByAGkAYwBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDuKKYhRSUpNpeqtrXW5btz9GhyPcrWMvAaGTm944HDaHdR6ZMtbZv6iWaymGNfc7lhpXFqLCWoTHCiAZmrS+d+S7MYR+YolhMjjvXkcCEUCkdsAv/shQC6aAINzGYxbJscwkXqCpPu+L5SsbAlwn+oNdwLZsLg0oK0iY0rPDC3oQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBANSmgzaGMT75U+NqL0izKX5Wawm+jm7t5kwlB1nGoum5wzAB8mxWW480Shh/pYvPXRzB9qSWEUhWGtqGWgHanp4furVZjlmPmnAI4DYIwHF6LKmNBT1ako1Nuq04k78cQvGB+/2F6iTdw65INOYjR/EuMBiz2Z6OdbSOHjfibEd+</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

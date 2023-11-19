@@ -1,0 +1,14 @@
+D:\Projects\LogOffController\LogOffController\bin\Debug\LogOffController.exe.config
+D:\Projects\LogOffController\LogOffController\bin\Debug\LogOffController.exe
+D:\Projects\LogOffController\LogOffController\bin\Debug\LogOffController.pdb
+D:\Projects\LogOffController\LogOffController\obj\Debug\LogOffController.csprojAssemblyReference.cache
+D:\Projects\LogOffController\LogOffController\obj\Debug\LogOffController.LogOffForm.resources
+D:\Projects\LogOffController\LogOffController\obj\Debug\LogOffController.Properties.Resources.resources
+D:\Projects\LogOffController\LogOffController\obj\Debug\LogOffController.csproj.GenerateResource.cache
+D:\Projects\LogOffController\LogOffController\obj\Debug\LogOffController.csproj.CoreCompileInputs.cache
+D:\Projects\LogOffController\LogOffController\obj\Debug\LogOffController.exe
+D:\Projects\LogOffController\LogOffController\obj\Debug\LogOffController.pdb
+D:\Projects\LogOffController\LogOffController\bin\Debug\LogOffController.exe.manifest
+D:\Projects\LogOffController\LogOffController\bin\Debug\LogOffController.application
+D:\Projects\LogOffController\LogOffController\obj\Debug\LogOffController.exe.manifest
+D:\Projects\LogOffController\LogOffController\obj\Debug\LogOffController.application
